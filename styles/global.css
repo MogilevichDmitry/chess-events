@@ -41,8 +41,6 @@ body {
 
 .logo {
   display: flex;
-  width: 200px;
-  height: 24px;
 }
 
 .logoLink {
@@ -54,6 +52,8 @@ body {
 
 .logoImage {
   display: flex;
+  width: 100%;
+  height: 100%;
 }
 
 .header {
