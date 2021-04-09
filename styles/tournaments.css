@@ -1,0 +1,54 @@
+.tournamentsTitle {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.tournamentsDescription {
+  margin-bottom: 25px;
+}
+
+.tournamentsList {
+  list-style: none;
+}
+
+.tournamentsItem {
+  margin-bottom: 60px;
+}
+
+.resultItem:last-child {
+  margin-bottom: 0;
+}
+
+.resultTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.resultTable td {
+  padding: 4px 20px;
+  height: 42px;
+}
+
+.resultTable tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.resultTdPlace {
+  text-align: center;
+  width: 80px;
+}
+
+.resultTdPlace img {
+  display: table-cell;
+  margin: 0 auto;
+  height: 36px;
+  width: 36px;
+}
+
+.resultTdName {
+  font-weight: 600;
+}
+
+.resultTdPrize {
+  text-align: right;
+}

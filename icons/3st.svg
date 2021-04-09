@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 47 47">
+  <defs>
+    <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="72.985%" id="a">
+      <stop stop-color="#FFF" offset=".001%"/>
+      <stop stop-color="#CE9029" offset="100%"/>
+    </radialGradient>
+    <filter x="-75.7%" y="-27.6%" width="251.5%" height="177.2%" filterUnits="objectBoundingBox" id="c">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+    </filter>
+    <rect id="b" x="0" y="0" width="45" height="45" rx="22.5"/>
+    <path d="M23.06 31.33c1.49 0 2.607-.44 3.352-1.32a3.7 3.7 0 00.813-1.676c.135-.643.203-1.498.203-2.564 0-1.558-.102-2.645-.305-3.263-.203-.618-.694-1.088-1.473-1.41.542-.321.923-.66 1.143-1.015.322-.508.482-1.261.482-2.26 0-1.608-.376-2.78-1.13-3.516-.753-.737-1.908-1.105-3.465-1.105-1.66 0-2.823.3-3.492.902-.668.6-1.002 1.713-1.002 3.338v.99h3.91v-1.497c0-.694.237-1.041.71-1.041.305 0 .508.152.61.457.05.152.076.49.076 1.015v.99c0 .88-.114 1.414-.343 1.6-.228.186-.816.28-1.764.28h-.229v2.538c.931 0 1.532.102 1.803.305.355.271.533.914.533 1.93v1.219c0 .93-.038 1.565-.114 1.904-.076.338-.284.508-.622.508-.44 0-.66-.356-.66-1.067V24.83h-3.91v.61l.076 2.107c0 1.252.406 2.196 1.218 2.83.813.636 2.006.953 3.58.953z" id="d"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(1 1)">
+      <rect stroke="#D2A354" stroke-width="8" stroke-linejoin="square" fill="url(#a)" x="4" y="4" width="37" height="37" rx="18.5"/>
+      <use stroke="#CE9029" xlink:href="#b"/>
+    </g>
+    <g fill-rule="nonzero" transform="translate(1 1)">
+      <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+      <use fill="#CE9029" xlink:href="#d"/>
+    </g>
+  </g>
+</svg>

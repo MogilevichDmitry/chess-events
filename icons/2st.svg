@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 47 47">
+  <defs>
+    <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="72.985%" id="a">
+      <stop stop-color="#FFF" offset=".001%"/>
+      <stop stop-color="#BEBEBE" offset="100%"/>
+    </radialGradient>
+    <filter x="-77.7%" y="-28.1%" width="255.3%" height="178.7%" filterUnits="objectBoundingBox" id="c">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+    </filter>
+    <rect id="b" x="0" y="0" width="45" height="45" rx="22.5"/>
+    <path d="M27.47 31v-2.996h-4.29a511.22 511.22 0 002.412-4.063c.795-1.354 1.354-2.446 1.676-3.275.389-1.016.584-1.989.584-2.92 0-1.608-.584-2.852-1.752-3.732a4.106 4.106 0 00-1.32-.622 6.298 6.298 0 00-1.626-.19c-1.185 0-2.141.312-2.869.939-.728.626-1.176 1.54-1.346 2.742-.05.338-.08.668-.088.99-.009.322-.013.652-.013.99v.584h3.555v-1.625c0-.61.059-1.083.177-1.422.119-.338.347-.507.686-.507.592 0 .889.448.889 1.345 0 .423-.06.834-.178 1.232-.119.398-.398 1.062-.838 1.993a115.876 115.876 0 01-1.803 3.478c-.255.48-.64 1.193-1.156 2.139l-.294.539-1.038 1.893V31h8.633z" id="d"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(1 1)">
+      <rect stroke="#CBCBCB" stroke-width="8" stroke-linejoin="square" fill="url(#a)" x="4" y="4" width="37" height="37" rx="18.5"/>
+      <use stroke="#BEBEBE" xlink:href="#b"/>
+    </g>
+    <g fill-rule="nonzero" transform="translate(1 1)">
+      <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+      <use fill="#BEBEBE" xlink:href="#d"/>
+    </g>
+  </g>
+</svg>
