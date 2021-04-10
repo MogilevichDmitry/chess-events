@@ -26,16 +26,20 @@
 .newsImage {
   max-height: 500px;
   object-fit: cover;
-  object-position: top;
   width: 100%;
   margin-bottom: 20px;
   border-radius: 15px;
 }
 
+.newsImageRaw {
+  max-height: 500px;
+  object-fit: cover;
+  width: 100%;
+}
+
 @media (max-width: 767px) {
   .newsTitle {
     font-size: 23px;
-    ma
   }
 
   .newsDate {
