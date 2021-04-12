@@ -34,6 +34,7 @@
 .newsImageBigHeight {
   height: auto;
   max-height: 700px;
+  object-fit: contain;
 }
 
 .newsImageRaw {
