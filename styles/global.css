@@ -229,7 +229,7 @@ main .wrapper {
 }
 
 .groupPlayer:nth-child(n + 5) {
-  background: rgba(255, 0, 0, 0.2);
+  background: rgba(255, 165, 0, 0.25);
 }
 
 
