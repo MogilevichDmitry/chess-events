@@ -165,6 +165,10 @@ main .wrapper {
   object-position: top;
 }
 
+.object_cover {
+  object-fit: cover !important;
+}
+
 .infoKey {
   font-size: 16px;
   color: rgba(0,0,0,0.9);
@@ -188,6 +192,56 @@ main .wrapper {
   text-align: center;
 }
 
+.groups {
+  display: flex;
+  justify-content: space-between;
+}
+
+.group {
+  width: 50%;
+  margin-right: 40px;
+}
+
+.group:last-child {
+  margin-right: 0;
+}
+
+.groupTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.groupPlayers {
+  margin-top: 4px;
+}
+
+.groupPlayer {
+  display: flex;
+  width: 100%;
+  padding: 2px;
+  border-bottom: 1px solid gray;
+}
+
+.groupPlayer:nth-child(-n + 4) {
+  background: rgba(0, 255, 0, 0.25);
+}
+
+.groupPlayer:nth-child(n + 5) {
+  background: rgba(255, 0, 0, 0.2);
+}
+
+
+.groupPlayerPosition { 
+  margin-right: 3px;
+  width: 20px;
+}
+
+.groupPlayerPoints {
+  margin-left: auto;
+}
+
 @media (max-width: 767px) {
   .header {
     flex-direction: column;
@@ -196,5 +250,18 @@ main .wrapper {
 
   .logo {
     margin-bottom: 10px;
+  }
+
+  .groups {
+    flex-direction: column;
+  }
+
+  .group {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .group:last-child {
+    margin-bottom: 0;
   }
 }
