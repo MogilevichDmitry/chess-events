@@ -305,7 +305,7 @@ input[id^="spoiler"] {
  }
 
  input[id^="spoiler"]:checked + label {
-   background: turquoise;
+   background: #b5dce1;
  }
 
  input[id^="spoiler"] ~ .spoilerData {
@@ -313,14 +313,12 @@ input[id^="spoiler"] {
    height: 0;
    overflow: hidden;
    opacity: 0;
-   padding: 10px; 
    transition: all .4s;
  }
 
  input[id^="spoiler"]:checked + label + .spoilerData {
    height: auto;
    opacity: 1;
-   padding: 10px;
  }
  
 @media (max-width: 767px) {
