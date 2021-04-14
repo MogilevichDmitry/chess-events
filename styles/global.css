@@ -278,7 +278,7 @@ main .wrapper {
 }
 
 .matchesTime, .matchesHeaderTime {
-  width: 120px;
+  width: 100px;
 }
 
 .matchesResult, .matchesHeaderResult {
