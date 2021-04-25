@@ -320,6 +320,42 @@ input[id^="spoiler"] {
    height: auto;
    opacity: 1;
  }
+
+
+.resultTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.resultTable td {
+  padding: 4px 20px;
+  height: 42px;
+}
+
+.resultTable tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.resultTdPlace {
+  text-align: center;
+  width: 78px;
+}
+
+.resultTdPlace img {
+  display: table-cell;
+  margin: 0 auto;
+  height: 36px;
+  width: 36px;
+}
+
+.resultTdName {
+  font-weight: 600;
+}
+
+.resultTdPrize {
+  text-align: right;
+}
+
  
 @media (max-width: 767px) {
   .header {

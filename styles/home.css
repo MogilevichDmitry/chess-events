@@ -22,7 +22,6 @@
 .newsListItem_wide .newsListImage {
   width: 58%;
   height: 400px;
-  object-position: top;
 }
 
 .newsListItem_wide .newsListMain {
